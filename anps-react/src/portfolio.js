@@ -3,7 +3,7 @@ import "./App.css";
 import "./style.css";
 import logo from "./images/myface-logo2.png";
 
-class HomeComponent extends React.Component {
+class portfolio extends React.Component {
   makenavbar() {
     return (
       <nav>
@@ -24,13 +24,11 @@ class HomeComponent extends React.Component {
         {this.makenavbar()}
 
         <main>
-          <h1>AINT NO PAINT SAINT.</h1>
-          <p>Digital Art | Paint | Tattoo Designs | Doodles </p>
-          <p> Follow us on Instagram </p>
-          <a href="https://www.instagram.com/aintnopaintsaint/" target="_blank">
-            @aintnotpaintsaint
-          </a>
+          <h1>PORTFOLIO.</h1>
+          <p>INSTA FEED</p>
         </main>
+
+        <div></div>
 
         <footer>
           <p>Markham, ON. CANADA | aintnotpaintsaint.com | Copyright 2020©</p>
@@ -40,4 +38,4 @@ class HomeComponent extends React.Component {
   }
 }
 
-export default HomeComponent;
+export default portfolio;
