@@ -3,6 +3,7 @@ import "./App.css";
 import "./style.css";
 import logo from "./images/myface-logo2.png";
 import { Link } from "react-router-dom";
+import InstagramEmbed from "react-instagram-embed";
 
 class portfolio extends React.Component {
   makenavbar() {
@@ -24,9 +25,22 @@ class portfolio extends React.Component {
 
         {this.makenavbar()}
 
-        <main>
+        <main class="insta">
           <h1>PORTFOLIO.</h1>
-          <p>INSTA FEED</p>
+          <inst>
+            <InstagramEmbed
+              url="https://www.instagram.com/p/B-C2slaBZjz/"
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName="div"
+              protocol=""
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+            />
+          </inst>
         </main>
 
         <div></div>

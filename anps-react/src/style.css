@@ -45,6 +45,10 @@ main {
   padding-right: 120px;
 }
 
+.insta {
+  padding-bottom: 350px;
+}
+
 main p {
   padding-left: 120px;
   padding-right: 120px;
@@ -75,6 +79,10 @@ p {
 
 im {
   font-weight: bold;
+}
+
+inst {
+  margin-top: 100px;
 }
 
 a {
