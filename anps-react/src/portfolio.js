@@ -2,14 +2,15 @@ import React from "react";
 import "./App.css";
 import "./style.css";
 import logo from "./images/myface-logo2.png";
+import { Link } from "react-router-dom";
 
 class portfolio extends React.Component {
   makenavbar() {
     return (
       <nav>
-        <a href="/">HOME</a>
-        <a href="/portfolio">PORTFOLIO</a>
-        <a href="/contact">CONTACT</a>
+        <Link to="">HOME</Link>
+        <Link to="portfolio">PORTFOLIO</Link>
+        <Link to="contact">CONTACT</Link>
       </nav>
     );
   }

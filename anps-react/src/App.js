@@ -6,13 +6,12 @@ import { Switch, Route } from "react-router";
 
 function App() {
   return (
-    <Switch>
+    <div>
       <Route exact path="/" component={HomeComponent} />
-      <Route path="/home" component={HomeComponent} />
-      <Route path="/anps" component={HomeComponent} />
-      <Route path="/portfolio" component={portfolio} />
-      <Route path="/contact" component={contact} />
-    </Switch>
+      <Route exact path="/portfolio" component={portfolio} />
+      <Route exact path="/contact" component={contact} />
+    </div>
+    
   );
 }
 
