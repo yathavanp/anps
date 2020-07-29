@@ -39,14 +39,18 @@ nav a {
 main {
   height: 400px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 30px;
   padding-left: 120px;
   padding-right: 120px;
 }
 
+.port {
+  height: 150px;
+}
+
 .insta {
-  padding-bottom: 350px;
+  padding-left: 340px;
 }
 
 main p {
@@ -79,10 +83,6 @@ p {
 
 im {
   font-weight: bold;
-}
-
-inst {
-  margin-top: 100px;
 }
 
 a {

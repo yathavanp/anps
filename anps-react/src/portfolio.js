@@ -25,25 +25,24 @@ class portfolio extends React.Component {
 
         {this.makenavbar()}
 
-        <main class="insta">
+        <main class="port">
           <h1>PORTFOLIO.</h1>
-          <inst>
-            <InstagramEmbed
-              url="https://www.instagram.com/p/B-C2slaBZjz/"
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName="div"
-              protocol=""
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-            />
-          </inst>
         </main>
 
-        <div></div>
+        <div class="insta">
+          <InstagramEmbed
+            url="https://www.instagram.com/p/B-C2slaBZjz/"
+            maxWidth={320}
+            hideCaption={true}
+            containerTagName="div"
+            protocol=""
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          />
+        </div>
 
         <footer>
           <p>Markham, ON. CANADA | aintnotpaintsaint.com | Copyright 2020©</p>

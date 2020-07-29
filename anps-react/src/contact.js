@@ -50,8 +50,6 @@ class contact extends React.Component {
           </p>
         </main>
 
-        <div></div>
-
         <footer>
           <p>Markham, ON. CANADA | aintnotpaintsaint.com | Copyright 2020©</p>
         </footer>
